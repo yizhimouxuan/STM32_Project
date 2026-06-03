@@ -1,0 +1,60 @@
+# dot files
+/.vscode/launch.json
+/.settings
+/.eide/log
+/.eide.usr.ctx.json
+
+# project out
+/build
+/bin
+/obj
+/out
+build/
+Debug/
+Release/
+MDK-ARM/build/
+MDK-ARM/STM32_new/
+
+# eide template
+*.ept
+*.eide-template
+
+# Keil / build outputs
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.map
+*.lst
+*.lnp
+*.htm
+*.log
+*.dep
+*.Bak
+*.sct
+
+# User/local IDE state
+.vs/
+.vscode/
+.eide/
+MDK-ARM/.cmsis/
+MDK-ARM/.eide/
+MDK-ARM/.vscode/
+*.uvguix.*
+*.uvoptx
+*.lock
+
+# Optional CMSIS packages not needed by this CubeMX project
+Drivers/CMSIS/DSP/
+Drivers/CMSIS/NN/
+Drivers/CMSIS/DAP/
+Drivers/CMSIS/Documentation/
+Drivers/CMSIS/RTOS/
+Drivers/CMSIS/RTOS2/
+Drivers/CMSIS/Core_A/
+
+# Temporary files
+*_tmp*
+_tmp*
+.gitignore.txt
